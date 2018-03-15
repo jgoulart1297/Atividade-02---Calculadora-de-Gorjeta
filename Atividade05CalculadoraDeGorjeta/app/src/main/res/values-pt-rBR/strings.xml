@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Atividade 05 - Calculadora de Gorjeta</string>
+    <string name="txt_login">Usuário</string>
+    <string name="txt_password">Senha</string>
+    <string name="btn_sign_in">Entrar</string>
+    <string name="et_valor">Valor</string>
+    <string name="txt_gorjeta">Gorjeta</string>
+    <string name="txt_total">Total</string>
+</resources>

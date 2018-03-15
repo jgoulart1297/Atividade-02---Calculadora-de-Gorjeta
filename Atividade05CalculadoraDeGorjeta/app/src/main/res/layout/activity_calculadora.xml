@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.jgoulart.atividade05calculadoradegorjeta.CalculadoraActivity">
+
+    <EditText
+        android:id="@+id/etValorConta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:hint="@string/et_valor" />
+
+    <TextView
+        android:id="@+id/txtPorcentagem"
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etValorConta"
+        android:layout_marginTop="13dp"
+        android:text="0% "
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center"
+        android:gravity="center_vertical"/>
+
+    <SeekBar
+        android:id="@+id/sbPorcentagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtPorcentagem"
+        android:layout_alignTop="@+id/txtPorcentagem"
+        android:layout_toEndOf="@+id/txtPorcentagem"
+        android:layout_toRightOf="@+id/txtPorcentagem"
+        android:max="30" />
+
+    <TextView
+        android:id="@+id/txtView5"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignLeft="@+id/txtPorcentagem"
+        android:layout_alignStart="@+id/txtPorcentagem"
+        android:layout_below="@+id/txtPorcentagem"
+        android:lineSpacingExtra="8sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_gorjeta"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/txtGorjeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtView5"
+        android:layout_alignTop="@+id/txtView5"
+        android:layout_toEndOf="@+id/txtView5"
+        android:layout_toRightOf="@+id/txtView5"
+        android:background="@color/colorAccent"
+        android:lineSpacingExtra="8sp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/txtView6"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignLeft="@+id/txtView5"
+        android:layout_alignStart="@+id/txtView5"
+        android:layout_below="@+id/txtView5"
+        android:layout_marginTop="16dp"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/txt_total"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignBaseline="@+id/txtView6"
+        android:layout_alignBottom="@+id/txtView6"
+        android:layout_toEndOf="@+id/txtView5"
+        android:layout_toRightOf="@+id/txtView5"
+        android:background="@color/colorAccent"
+        android:gravity="center_vertical"
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>

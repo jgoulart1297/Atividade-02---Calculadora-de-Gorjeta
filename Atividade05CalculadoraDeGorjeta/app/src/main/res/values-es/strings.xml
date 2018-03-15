@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora de la Cubierta</string>
+    <string name="txt_login">Usuario</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="btn_sign_in">Inciar sesión</string>
+    <string name="et_valor">Valor</string>
+    <string name="txt_gorjeta">Propina</string>
+    <string name="txt_total">Total</string>
+</resources>
